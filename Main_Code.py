@@ -6,7 +6,7 @@ import numpy as np
 # Parameters
 width, height = 1280, 720
 gestureThreshold = 300
-folderPath = "PPT"
+folderPath = "PPT" # PLACE_YOUR_PRESENTATION_LOCATION
 
 # Camera Setup
 cap = cv2.VideoCapture(0)
