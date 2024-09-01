@@ -3,6 +3,15 @@
 ## Introduction:
 This project aims to create an interactive presentation tool that uses hand gestures to control various actions. By recognizing the number of fingers a user is holding up, the application will perform corresponding operations, such as moving forward, moving backward, pointing, writing, and undoing writing.
 
+## To install the 3D Motion Capture From Video, please follow these steps:
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running the following command:
+
+```
+pip install -r requirement.txt
+```
+
+
 ## Libraries used:
 * OpenCV (cv2): For image processing and computer vision tasks.
 * MediaPipe: A framework for building ML-powered pipelines for a variety of tasks, including hand tracking.
@@ -33,6 +42,9 @@ This project aims to create an interactive presentation tool that uses hand gest
      3. Two fingers: Point.
      4. One fingers: Write.
      5. Three fingers: Undo writing.
+   * Image representation:
+     
+     <img src="Document/finger count and position for specific operation.jpg" width="60%"/>
 
 6. Visualize Hand Detection and Actions:
    * Overlay the detected hand landmarks and action indicators on the video frames.
