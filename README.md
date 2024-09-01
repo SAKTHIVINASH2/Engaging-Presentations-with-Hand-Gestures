@@ -49,3 +49,9 @@ pip install -r requirement.txt
 6. Visualize Hand Detection and Actions:
    * Overlay the detected hand landmarks and action indicators on the video frames.
    * Display the processed video in a window.
+
+## Additional Considerations
+1. Gesture Recognition: Define specific hand gestures and their corresponding actions based on your requirements.
+2. Action Implementation: Implement the logic for performing actions (e.g., moving forward, writing) using appropriate libraries or techniques.
+3. Error Handling: Handle potential errors, such as when hands are not detected or the finger count is ambiguous.
+4. Performance Optimization: Optimize the code for real-time performance, especially for computationally intensive tasks like hand detection and image processing.
